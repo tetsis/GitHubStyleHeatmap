@@ -13,7 +13,7 @@
             <RowDefinition Height="auto" />
         </Grid.RowDefinitions>
 
-        <StackPanel Grid.Row="0" Margin="10">
+        <Grid Grid.Row="0" Margin="10">
             <ItemsControl ItemsSource="{Binding WeekHeatmaps}">
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
@@ -47,7 +47,7 @@
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
-        </StackPanel>
+        </Grid>
 
         <StackPanel
             Grid.Row="1"
